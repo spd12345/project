@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Input Value Example</title>
+</head>
+<body>
+  <input type="text" id="myInput" name="input" >
+  <button onclick="updateAndReflectValue()">Update and Reflect Value</button>
+
+  <script>
+    function updateAndReflectValue() {
+      // Assume you have some dynamic data or computation
+      var dynamicData = "Dynamic Value";
+
+      // Get the input element by its ID
+      var inputElement = document.getElementById("myInput");
+
+      // Set the value of the input field dynamically
+      inputElement.value = dynamicData;
+
+      // Reflect the value in the same input field
+      inputElement.value = dynamicData;
+	  
+    }
+  </script>
+</body>
+</html>
+

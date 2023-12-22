@@ -1,0 +1,45 @@
+/* //////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////=======INDEX.PHP=====///////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////// */
+
+
+*body{
+    width: 100%;
+}
+.fa{
+    font-size: 3vw;
+}
+.fa:hover{
+    color: rgb(112, 14, 14);
+    transition: 0.5s;
+    cursor: pointer;
+    text-shadow: 0px 0px 3px rgb(158, 35, 35);
+}
+#head{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    height: 4rem;
+    font-size: 5vh;
+    margin: 2vw 2vw;
+}
+#gen-button{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 2vw;
+}
+h5{
+  font-size:20px;
+  margin-left:2vw;
+}
+#table{
+    display:flex;
+    justify-content:center;
+}
+.table{
+    width:70vw;
+    border: solid 1px black;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////==============================//////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////// */
