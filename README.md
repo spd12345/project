@@ -1,2 +1,2 @@
 # project
- Subidha Foundation (inteernship program)
+ Subidha Foundation (internship program)
